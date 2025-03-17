@@ -12,14 +12,11 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  rgb(50, 185, 130);  //shade of green
-  delay(dt);
-  rgb(255, 0, 0 );    //red
-  delay(dt);
-  rgb(0, 255, 0 );    //green
-  delay(dt);
-  rgb(0, 0, 255 );    //blue
-  delay(dt);
+  for( int i = 50; i <= 255; i+= 5)
+  {
+    rgb(i, 0, 0);
+    delay(dt);
+  }
 }
 
 void rgb(int red, int green, int blue)
