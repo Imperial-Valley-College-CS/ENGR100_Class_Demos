@@ -12,9 +12,9 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for( int i = 50; i <= 255; i+= 5)
+  for( int i = 100; i <= 255; i+= 5)
   {
-    rgb(i, 0, 0);
+    rgb(i, i, i);
     delay(dt);
   }
 }
