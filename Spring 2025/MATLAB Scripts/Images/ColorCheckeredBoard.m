@@ -13,5 +13,4 @@ img(:,:,1) = red;
 img(:,:,2) = gre;
 img(:,:,3) = blu;
 
-imshow(img)
-truesize(gcf,[100 100])
+imshow(img,"InitialMagnification",1000000)
