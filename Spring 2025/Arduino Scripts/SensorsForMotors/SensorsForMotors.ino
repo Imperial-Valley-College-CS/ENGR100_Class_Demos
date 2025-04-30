@@ -21,9 +21,12 @@ void loop() {
   rightSensor = analogRead( rightPhotoResPin );
   speedSensor = analogRead( speedPin );
 
-  Serial.print("Left Sensor: " + leftSensor);
-  Serial.print(", Rigth Sensor: " + rightSensor);
-  Serial.print(", Speed Sensor: " + speedSensor);
+  Serial.print("Left Sensor: ");
+  Serial.print(leftSensor);
+  Serial.print(", Rigth Sensor: ");
+  Serial.print(rightSensor);
+  Serial.print(", Speed Sensor: ");
+  Serial.print(speedSensor);
   Serial.println();
   delay(500);
   
